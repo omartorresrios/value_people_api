@@ -22,6 +22,8 @@ gem 'fog', '~> 1.38'
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
+gem 'pry', '~> 0.12.2'
+
 # image resizing
 gem 'mini_magick'
 
