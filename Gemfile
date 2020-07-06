@@ -11,7 +11,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 4.1'
 
 gem 'jwt', '~> 1.5', '>= 1.5.4'
-gem 'fast_jsonapi'
+gem 'active_model_serializers', '~> 0.10.2'
 gem 'rack-cors', require: 'rack/cors'
 
 gem 'carrierwave-base64'
@@ -23,6 +23,8 @@ gem 'fog', '~> 1.38'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
 gem 'pry', '~> 0.12.2'
+
+gem 'rack-cors', require: 'rack/cors'
 
 # image resizing
 gem 'mini_magick'

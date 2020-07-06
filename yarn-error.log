@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/Cellar/node/12.8.0/bin/node /usr/local/bin/yarn add axios
+
+PATH: 
+  /Users/omartorres/.rvm/gems/ruby-2.7.0/bin:/Users/omartorres/.rvm/gems/ruby-2.7.0@global/bin:/Users/omartorres/.rvm/rubies/ruby-2.7.0/bin:/Users/omartorres/.rvm/bin:/usr/local/opt/libxml2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.17.35:443 - Local (0.0.0.0:55593)
+      at internalConnect (net.js:835:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:301:12)
+      at emitLookup (net.js:978:9)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:107523:28
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:107432:13
+      at RawTask.module.exports.RawTask.call (/usr/local/lib/node_modules/yarn/lib/cli.js:83613:19)
+      at flush (/usr/local/lib/node_modules/yarn/lib/cli.js:83695:29)
+      at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
