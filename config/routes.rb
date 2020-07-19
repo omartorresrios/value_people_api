@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     end
 
     get 'all_interests' => 'interest#all_interests'
+    get 'all_professions' => 'profession#all_professions'
   end
 end
