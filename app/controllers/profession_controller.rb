@@ -10,6 +10,7 @@ class ProfessionController < ApplicationController
   private
 
     def set_user
+      doing something wrong
       @user = User.find_by(id: params[:id])
     end
 end
